@@ -24,10 +24,36 @@ Little searching and i found, this file is PRTG Configuration.old.bak in directo
 We need to download this file and check what's inside there: get PRTG Configuration.old.bak, when u download this and cat, u can see many lines of code, we need to find some creds
 Holy shit, that was hard, there is hundreds lines of code but i found here is the password:![obraz](https://github.com/Anogota/Netmon/assets/143951834/fd1fbe6b-51c0-4a6e-9d9a-4971cb1a849e)
 
-6.What is the prtgadmin user's password on the website now?
+7.What is the prtgadmin user's password on the website now?
 I don't know how bu i got this in first atemp, i fallow the patern and change from 2018 to 2019, and we got this :P
 That look's this "admin panel"
 
 ![obraz](https://github.com/Anogota/Netmon/assets/143951834/255b3922-8279-4e9a-a2df-9ce4913ba10b)
+
+8.What version of PRTG is installed?
+Now we need to figure it out what's PRTG version is installed, that was no problem, i move back to as scan and here it is, the version.
+
+![obraz](https://github.com/Anogota/Netmon/assets/143951834/aecb2d4f-f4f3-4773-930c-afa67d4245ea)
+
+And that's why u need to make a good scan, in good scan u find everything u want :P
+
+9.Which user is this software running as by default? Don't include anything before a \.
+I turn on my metasploit and search rtpg and i found RCE
+
+![obraz](https://github.com/Anogota/Netmon/assets/143951834/023af824-4551-4a99-b603-63ce0a45e62c)
+
+Rember to inster, ADMIN_USERNAME,RHOST,LHOST after this run the command and u execute RCE, type whoami and there it is the answer 
+![obraz](https://github.com/Anogota/Netmon/assets/143951834/bd7bbe19-3daf-4055-b454-358b972d488c)
+
+Submit the flag located on the administrator's desktop.
+And here is the Administrator flag.
+
+![obraz](https://github.com/Anogota/Netmon/assets/143951834/39ce2c06-2179-4f21-8916-d38240e81b59)
+
+
+
+![obraz](https://github.com/Anogota/Netmon/assets/143951834/26848ded-206f-4d3e-bc04-9f99b6c809cc)
+
+
 
 
