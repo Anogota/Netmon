@@ -25,4 +25,9 @@ We need to download this file and check what's inside there: get PRTG Configurat
 Holy shit, that was hard, there is hundreds lines of code but i found here is the password:![obraz](https://github.com/Anogota/Netmon/assets/143951834/fd1fbe6b-51c0-4a6e-9d9a-4971cb1a849e)
 
 6.What is the prtgadmin user's password on the website now?
+I don't know how bu i got this in first atemp, i fallow the patern and change from 2018 to 2019, and we got this :P
+That look's this "admin panel"
+
+![obraz](https://github.com/Anogota/Netmon/assets/143951834/255b3922-8279-4e9a-a2df-9ce4913ba10b)
+
 
