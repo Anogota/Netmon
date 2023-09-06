@@ -19,3 +19,10 @@ I don't know there answer, but when you copy paste this question to google, u wi
 ![obraz](https://github.com/Anogota/Netmon/assets/143951834/dd53e497-04ce-49db-9092-b30ec5b2bf5a)
 
 5.What is the name of the backup config file?
+Little searching and i found, this file is PRTG Configuration.old.bak in directory Remote directory: /programdata/Paessler/PRTG Network Monitor
+6.What was the prtgadmin user's password according to that file?
+We need to download this file and check what's inside there: get PRTG Configuration.old.bak, when u download this and cat, u can see many lines of code, we need to find some creds
+Holy shit, that was hard, there is hundreds lines of code but i found here is the password:![obraz](https://github.com/Anogota/Netmon/assets/143951834/fd1fbe6b-51c0-4a6e-9d9a-4971cb1a849e)
+
+6.What is the prtgadmin user's password on the website now?
+
